@@ -1,0 +1,1 @@
+{"feature_names": ["sqft", "bedrooms", "bathrooms", "age", "location_suburban", "location_urban"], "input_dim": 6, "hidden_dims": [64, 32]}

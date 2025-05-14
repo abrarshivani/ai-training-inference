@@ -1,0 +1,34 @@
+# Python specific
+python/venv/
+python/__pycache__/
+python/**/__pycache__/
+python/**/*.py[cod]
+python/**/*.so
+python/models/*.pt
+python/models/*.onnx
+python/**/.ipynb_checkpoints/
+python/**/*.pyc
+
+# Rust specific
+rust/target/
+rust/Cargo.lock
+rust/**/*.rs.bk
+
+# Dataset files (optional - uncomment if you don't want to track large datasets)
+# python/data/*.csv
+# python/data/*.parquet
+# python/data/*.json
+
+# Generated model outputs
+python/src/evaluation/results/
+python/models/checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Logs
+*.log
